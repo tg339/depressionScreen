@@ -8,16 +8,71 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DepressionScreen_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DepressionScreen_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Monitor" id="Znb-cH-umc">
+                            <connections>
+                                <segue destination="wmg-1l-OtD" kind="push" id="ZfJ-tG-ZUm"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Feeling" id="Nfc-Xy-b0u">
+                            <connections>
+                                <segue destination="YMV-sk-6Ef" kind="push" id="vv9-2f-b0y"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Energy Level" id="lQ5-Sj-qEt">
+                            <connections>
+                                <segue destination="MF9-US-TMN" kind="push" id="mvY-Cw-aY1"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
         <!--Interface Controller-->
+        <scene sceneID="jUk-9T-nSH">
+            <objects>
+                <controller hidesWhenLoading="NO" id="wmg-1l-OtD">
+                    <items>
+                        <picker width="1" height="100" alignment="left" id="lu6-vR-orf"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="490" y="69"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="TUd-4y-MDo">
             <objects>
-                <controller hidesWhenLoading="NO" id="YMV-sk-6Ef"/>
+                <controller hidesWhenLoading="NO" id="YMV-sk-6Ef">
+                    <items>
+                        <label alignment="left" id="Ck7-sv-S0Q"/>
+                        <label width="1" alignment="left" text="I'm Feeling:" textAlignment="left" numberOfLines="2" id="Hqo-gI-zu4"/>
+                        <label alignment="left" text="Neutral" id="6Uq-m1-fGx"/>
+                        <slider width="1" alignment="left" continuous="YES" value="2" maximum="4" steps="5" id="J7S-fH-QkY">
+                            <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </slider>
+                        <button width="1" alignment="left" title="Submit" id="ysB-qH-ZM0"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="473" y="343"/>
+            <point key="canvasLocation" x="487" y="348"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="37c-bD-pXY">
+            <objects>
+                <controller hidesWhenLoading="NO" id="MF9-US-TMN">
+                    <items>
+                        <label width="1" alignment="left" text="My energy is:" textAlignment="left" numberOfLines="2" id="4NJ-Lu-tWA"/>
+                        <label alignment="left" text="Medium" id="jQd-bJ-4Ub"/>
+                        <slider width="1" alignment="left" continuous="YES" value="2" maximum="4" steps="5" id="tjG-rl-9Di">
+                            <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </slider>
+                        <button width="1" alignment="left" title="Submit" id="J6q-QJ-Ocu"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="487" y="664"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
