@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF9AB5B1BD14E40004F948D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB5A1BD14E40004F948D /* AppDelegate.swift */; };
+		ECF9AB5D1BD14E40004F948D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB5C1BD14E40004F948D /* ViewController.swift */; };
+		ECF9AB601BD14E40004F948D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB5E1BD14E40004F948D /* Main.storyboard */; };
+		ECF9AB621BD14E40004F948D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB611BD14E40004F948D /* Assets.xcassets */; };
+		ECF9AB651BD14E40004F948D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB631BD14E40004F948D /* LaunchScreen.storyboard */; };
+		ECF9AB701BD14E40004F948D /* DepressionScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB6F1BD14E40004F948D /* DepressionScreenTests.swift */; };
+		ECF9AB7B1BD14E40004F948D /* DepressionScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB7A1BD14E40004F948D /* DepressionScreenUITests.swift */; };
+		ECF9AB801BD14E41004F948D /* DepressionScreen WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ECF9AB7F1BD14E41004F948D /* DepressionScreen WatchKit App.app */; };
+		ECF9AB861BD14E41004F948D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB841BD14E41004F948D /* Interface.storyboard */; };
+		ECF9AB881BD14E41004F948D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB871BD14E41004F948D /* Assets.xcassets */; };
+		ECF9AB8F1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ECF9AB8E1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ECF9AB961BD14E41004F948D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB951BD14E41004F948D /* InterfaceController.swift */; };
+		ECF9AB981BD14E41004F948D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB971BD14E41004F948D /* ExtensionDelegate.swift */; };
+		ECF9AB9A1BD14E41004F948D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB991BD14E41004F948D /* NotificationController.swift */; };
+		ECF9AB9C1BD14E41004F948D /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB9B1BD14E41004F948D /* GlanceController.swift */; };
+		ECF9AB9E1BD14E41004F948D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9AB9D1BD14E41004F948D /* ComplicationController.swift */; };
+		ECF9ABA01BD14E41004F948D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF9AB9F1BD14E41004F948D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF9AB6C1BD14E40004F948D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF9AB4F1BD14E40004F948D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF9AB561BD14E40004F948D;
+			remoteInfo = DepressionScreen;
+		};
+		ECF9AB771BD14E40004F948D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF9AB4F1BD14E40004F948D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF9AB561BD14E40004F948D;
+			remoteInfo = DepressionScreen;
+		};
+		ECF9AB811BD14E41004F948D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF9AB4F1BD14E40004F948D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF9AB7E1BD14E41004F948D;
+			remoteInfo = "DepressionScreen WatchKit App";
+		};
+		ECF9AB901BD14E41004F948D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF9AB4F1BD14E40004F948D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF9AB8D1BD14E41004F948D;
+			remoteInfo = "DepressionScreen WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECF9ABA71BD14E41004F948D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECF9AB8F1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9ABAB1BD14E41004F948D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ECF9AB801BD14E41004F948D /* DepressionScreen WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECF9AB571BD14E40004F948D /* DepressionScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepressionScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9AB5A1BD14E40004F948D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF9AB5C1BD14E40004F948D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF9AB5F1BD14E40004F948D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF9AB611BD14E40004F948D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF9AB641BD14E40004F948D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF9AB661BD14E40004F948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9AB6B1BD14E40004F948D /* DepressionScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9AB6F1BD14E40004F948D /* DepressionScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionScreenTests.swift; sourceTree = "<group>"; };
+		ECF9AB711BD14E40004F948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9AB761BD14E40004F948D /* DepressionScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9AB7A1BD14E40004F948D /* DepressionScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionScreenUITests.swift; sourceTree = "<group>"; };
+		ECF9AB7C1BD14E40004F948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9AB7F1BD14E41004F948D /* DepressionScreen WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DepressionScreen WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9AB851BD14E41004F948D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ECF9AB871BD14E41004F948D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF9AB891BD14E41004F948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9AB8E1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DepressionScreen WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9AB941BD14E41004F948D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ECF9AB951BD14E41004F948D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		ECF9AB971BD14E41004F948D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		ECF9AB991BD14E41004F948D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ECF9AB9B1BD14E41004F948D /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		ECF9AB9D1BD14E41004F948D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		ECF9AB9F1BD14E41004F948D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF9ABA11BD14E41004F948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF9AB541BD14E40004F948D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB681BD14E40004F948D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB731BD14E40004F948D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB8B1BD14E41004F948D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF9AB4E1BD14E40004F948D = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB591BD14E40004F948D /* DepressionScreen */,
+				ECF9AB6E1BD14E40004F948D /* DepressionScreenTests */,
+				ECF9AB791BD14E40004F948D /* DepressionScreenUITests */,
+				ECF9AB831BD14E41004F948D /* DepressionScreen WatchKit App */,
+				ECF9AB921BD14E41004F948D /* DepressionScreen WatchKit Extension */,
+				ECF9AB581BD14E40004F948D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF9AB581BD14E40004F948D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB571BD14E40004F948D /* DepressionScreen.app */,
+				ECF9AB6B1BD14E40004F948D /* DepressionScreenTests.xctest */,
+				ECF9AB761BD14E40004F948D /* DepressionScreenUITests.xctest */,
+				ECF9AB7F1BD14E41004F948D /* DepressionScreen WatchKit App.app */,
+				ECF9AB8E1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF9AB591BD14E40004F948D /* DepressionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB5A1BD14E40004F948D /* AppDelegate.swift */,
+				ECF9AB5C1BD14E40004F948D /* ViewController.swift */,
+				ECF9AB5E1BD14E40004F948D /* Main.storyboard */,
+				ECF9AB611BD14E40004F948D /* Assets.xcassets */,
+				ECF9AB631BD14E40004F948D /* LaunchScreen.storyboard */,
+				ECF9AB661BD14E40004F948D /* Info.plist */,
+			);
+			path = DepressionScreen;
+			sourceTree = "<group>";
+		};
+		ECF9AB6E1BD14E40004F948D /* DepressionScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB6F1BD14E40004F948D /* DepressionScreenTests.swift */,
+				ECF9AB711BD14E40004F948D /* Info.plist */,
+			);
+			path = DepressionScreenTests;
+			sourceTree = "<group>";
+		};
+		ECF9AB791BD14E40004F948D /* DepressionScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB7A1BD14E40004F948D /* DepressionScreenUITests.swift */,
+				ECF9AB7C1BD14E40004F948D /* Info.plist */,
+			);
+			path = DepressionScreenUITests;
+			sourceTree = "<group>";
+		};
+		ECF9AB831BD14E41004F948D /* DepressionScreen WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB841BD14E41004F948D /* Interface.storyboard */,
+				ECF9AB871BD14E41004F948D /* Assets.xcassets */,
+				ECF9AB891BD14E41004F948D /* Info.plist */,
+			);
+			path = "DepressionScreen WatchKit App";
+			sourceTree = "<group>";
+		};
+		ECF9AB921BD14E41004F948D /* DepressionScreen WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB951BD14E41004F948D /* InterfaceController.swift */,
+				ECF9AB971BD14E41004F948D /* ExtensionDelegate.swift */,
+				ECF9AB991BD14E41004F948D /* NotificationController.swift */,
+				ECF9AB9B1BD14E41004F948D /* GlanceController.swift */,
+				ECF9AB9D1BD14E41004F948D /* ComplicationController.swift */,
+				ECF9AB9F1BD14E41004F948D /* Assets.xcassets */,
+				ECF9ABA11BD14E41004F948D /* Info.plist */,
+				ECF9AB931BD14E41004F948D /* Supporting Files */,
+			);
+			path = "DepressionScreen WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ECF9AB931BD14E41004F948D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9AB941BD14E41004F948D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF9AB561BD14E40004F948D /* DepressionScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF9ABAC1BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen" */;
+			buildPhases = (
+				ECF9AB531BD14E40004F948D /* Sources */,
+				ECF9AB541BD14E40004F948D /* Frameworks */,
+				ECF9AB551BD14E40004F948D /* Resources */,
+				ECF9ABAB1BD14E41004F948D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF9AB821BD14E41004F948D /* PBXTargetDependency */,
+			);
+			name = DepressionScreen;
+			productName = DepressionScreen;
+			productReference = ECF9AB571BD14E40004F948D /* DepressionScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF9AB6A1BD14E40004F948D /* DepressionScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF9ABAF1BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreenTests" */;
+			buildPhases = (
+				ECF9AB671BD14E40004F948D /* Sources */,
+				ECF9AB681BD14E40004F948D /* Frameworks */,
+				ECF9AB691BD14E40004F948D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF9AB6D1BD14E40004F948D /* PBXTargetDependency */,
+			);
+			name = DepressionScreenTests;
+			productName = DepressionScreenTests;
+			productReference = ECF9AB6B1BD14E40004F948D /* DepressionScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF9AB751BD14E40004F948D /* DepressionScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF9ABB21BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreenUITests" */;
+			buildPhases = (
+				ECF9AB721BD14E40004F948D /* Sources */,
+				ECF9AB731BD14E40004F948D /* Frameworks */,
+				ECF9AB741BD14E40004F948D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF9AB781BD14E40004F948D /* PBXTargetDependency */,
+			);
+			name = DepressionScreenUITests;
+			productName = DepressionScreenUITests;
+			productReference = ECF9AB761BD14E40004F948D /* DepressionScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECF9AB7E1BD14E41004F948D /* DepressionScreen WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF9ABA81BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen WatchKit App" */;
+			buildPhases = (
+				ECF9AB7D1BD14E41004F948D /* Resources */,
+				ECF9ABA71BD14E41004F948D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF9AB911BD14E41004F948D /* PBXTargetDependency */,
+			);
+			name = "DepressionScreen WatchKit App";
+			productName = "DepressionScreen WatchKit App";
+			productReference = ECF9AB7F1BD14E41004F948D /* DepressionScreen WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ECF9AB8D1BD14E41004F948D /* DepressionScreen WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF9ABA41BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen WatchKit Extension" */;
+			buildPhases = (
+				ECF9AB8A1BD14E41004F948D /* Sources */,
+				ECF9AB8B1BD14E41004F948D /* Frameworks */,
+				ECF9AB8C1BD14E41004F948D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DepressionScreen WatchKit Extension";
+			productName = "DepressionScreen WatchKit Extension";
+			productReference = ECF9AB8E1BD14E41004F948D /* DepressionScreen WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF9AB4F1BD14E40004F948D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cornell Tech";
+				TargetAttributes = {
+					ECF9AB561BD14E40004F948D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ECF9AB6A1BD14E40004F948D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ECF9AB561BD14E40004F948D;
+					};
+					ECF9AB751BD14E40004F948D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ECF9AB561BD14E40004F948D;
+					};
+					ECF9AB7E1BD14E41004F948D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ECF9AB8D1BD14E41004F948D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ECF9AB521BD14E40004F948D /* Build configuration list for PBXProject "DepressionScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF9AB4E1BD14E40004F948D;
+			productRefGroup = ECF9AB581BD14E40004F948D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF9AB561BD14E40004F948D /* DepressionScreen */,
+				ECF9AB6A1BD14E40004F948D /* DepressionScreenTests */,
+				ECF9AB751BD14E40004F948D /* DepressionScreenUITests */,
+				ECF9AB7E1BD14E41004F948D /* DepressionScreen WatchKit App */,
+				ECF9AB8D1BD14E41004F948D /* DepressionScreen WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF9AB551BD14E40004F948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB651BD14E40004F948D /* LaunchScreen.storyboard in Resources */,
+				ECF9AB621BD14E40004F948D /* Assets.xcassets in Resources */,
+				ECF9AB601BD14E40004F948D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB691BD14E40004F948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB741BD14E40004F948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB7D1BD14E41004F948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB881BD14E41004F948D /* Assets.xcassets in Resources */,
+				ECF9AB861BD14E41004F948D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB8C1BD14E41004F948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9ABA01BD14E41004F948D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF9AB531BD14E40004F948D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB5D1BD14E40004F948D /* ViewController.swift in Sources */,
+				ECF9AB5B1BD14E40004F948D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB671BD14E40004F948D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB701BD14E40004F948D /* DepressionScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB721BD14E40004F948D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB7B1BD14E40004F948D /* DepressionScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9AB8A1BD14E41004F948D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9AB9A1BD14E41004F948D /* NotificationController.swift in Sources */,
+				ECF9AB981BD14E41004F948D /* ExtensionDelegate.swift in Sources */,
+				ECF9AB9E1BD14E41004F948D /* ComplicationController.swift in Sources */,
+				ECF9AB961BD14E41004F948D /* InterfaceController.swift in Sources */,
+				ECF9AB9C1BD14E41004F948D /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF9AB6D1BD14E40004F948D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF9AB561BD14E40004F948D /* DepressionScreen */;
+			targetProxy = ECF9AB6C1BD14E40004F948D /* PBXContainerItemProxy */;
+		};
+		ECF9AB781BD14E40004F948D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF9AB561BD14E40004F948D /* DepressionScreen */;
+			targetProxy = ECF9AB771BD14E40004F948D /* PBXContainerItemProxy */;
+		};
+		ECF9AB821BD14E41004F948D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF9AB7E1BD14E41004F948D /* DepressionScreen WatchKit App */;
+			targetProxy = ECF9AB811BD14E41004F948D /* PBXContainerItemProxy */;
+		};
+		ECF9AB911BD14E41004F948D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF9AB8D1BD14E41004F948D /* DepressionScreen WatchKit Extension */;
+			targetProxy = ECF9AB901BD14E41004F948D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF9AB5E1BD14E40004F948D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF9AB5F1BD14E40004F948D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF9AB631BD14E40004F948D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF9AB641BD14E40004F948D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF9AB841BD14E41004F948D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF9AB851BD14E41004F948D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF9ABA21BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF9ABA31BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF9ABA51BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DepressionScreen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ECF9ABA61BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DepressionScreen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		ECF9ABA91BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DepressionScreen_WatchKit_Extension;
+				INFOPLIST_FILE = "DepressionScreen WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ECF9ABAA1BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DepressionScreen_WatchKit_Extension;
+				INFOPLIST_FILE = "DepressionScreen WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		ECF9ABAD1BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DepressionScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECF9ABAE1BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DepressionScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECF9ABB01BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepressionScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionScreen.app/DepressionScreen";
+			};
+			name = Debug;
+		};
+		ECF9ABB11BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepressionScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionScreen.app/DepressionScreen";
+			};
+			name = Release;
+		};
+		ECF9ABB31BD14E41004F948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DepressionScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DepressionScreen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECF9ABB41BD14E41004F948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DepressionScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTech.tg339-CTech.DepressionScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DepressionScreen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF9AB521BD14E40004F948D /* Build configuration list for PBXProject "DepressionScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABA21BD14E41004F948D /* Debug */,
+				ECF9ABA31BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF9ABA41BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABA51BD14E41004F948D /* Debug */,
+				ECF9ABA61BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF9ABA81BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABA91BD14E41004F948D /* Debug */,
+				ECF9ABAA1BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF9ABAC1BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABAD1BD14E41004F948D /* Debug */,
+				ECF9ABAE1BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF9ABAF1BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABB01BD14E41004F948D /* Debug */,
+				ECF9ABB11BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF9ABB21BD14E41004F948D /* Build configuration list for PBXNativeTarget "DepressionScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9ABB31BD14E41004F948D /* Debug */,
+				ECF9ABB41BD14E41004F948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF9AB4F1BD14E40004F948D /* Project object */;
+}
